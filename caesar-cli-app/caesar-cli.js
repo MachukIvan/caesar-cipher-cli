@@ -33,7 +33,7 @@ const transformStream = new CryptTransformer(shiftCount);
 pipeline(inputStream, transformStream, outputStream, error => {
     if (error) {
         console.error('Cryption process failed.', error.message);
-        process.exit(1);
+        process.exit(error.code);
     } else {
         console.log('Cryption process succeeded.');
     }
