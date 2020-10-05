@@ -12,7 +12,7 @@ git clone https://github.com/MachukIvan/caesar-cipher-cli.git
 
 ## Installation
 
-At first go the root folder:
+At first go the app folder:
 ```bash
 cd caesar-cipher-cli/caesar-cli-app
 ```
@@ -42,11 +42,8 @@ Now you are ready to use the app:
 ```bash
 node caesar-cli -s 4 -a encode
 ```
-You can create input.txt and output.txt in the root folder and use them for input value and result:
+You can create input.txt and output.txt in the root folder and use them as the input value and the result:
 ```bash
 node caesar-cli -s 4 -i ./input.txt -o ./output.txt -a encode
 ```
-
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+> **NB:** To exit the process you can use Ctrl + C shortcut.
