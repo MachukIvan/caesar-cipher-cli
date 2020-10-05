@@ -42,8 +42,8 @@ Now you are ready to use the app:
 ```bash
 node caesar-cli -s 4 -a encode
 ```
-You can create input.txt and output.txt in the root folder and use them as the input value and the result:
+You can create *input.txt* and *output.txt* in the root folder and use them as the input value and the result:
 ```bash
 node caesar-cli -s 4 -i ./input.txt -o ./output.txt -a encode
 ```
-> **NB:** To exit the process you can use Ctrl + C shortcut.
+> **NB:** To exit the process you can use the **Ctrl + C** shortcut.
